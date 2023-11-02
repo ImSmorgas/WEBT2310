@@ -107,9 +107,9 @@ button:hover{
 }
 .page-break img{
     position: absolute;
-    clip: rect(0px auto 200px 0px);
+    clip: rect(0px auto 500px 0px);
     width: 100%;
-    height: auto;;
+    height: auto;
     display: block;
     filter: brightness(80%);
     min-height: 200px;
