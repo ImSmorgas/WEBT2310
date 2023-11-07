@@ -1,0 +1,181 @@
+body{
+    background-color: #f2f2f2;
+}
+
+
+
+/* Masthead */
+/* Masthead */
+/* Masthead */
+/* Masthead */
+/* Masthead */
+
+
+
+/* Header */
+#masthead{
+    background-image: url(../images/commons_aerial.jpeg);
+    height: 300px;
+    background-size: cover;
+    background-position: bottom center;
+    color: #fff;
+}
+
+.darken-image .overlay {
+         width: 100%;
+         height: auto;
+         background-color: rgba(0, 0, 0, 0.5); /* black with 50% opacity */
+}
+
+#headerp{
+    text-align: center;
+}
+
+#headerh1{
+    text-align: center;
+}
+/* Header */
+
+
+
+/* Index */
+/* Index */
+/* Index */
+/* Index */
+/* Index */
+
+
+
+/* Carousel */
+#event-carousel{
+    min-height: 200px;
+
+}
+#event-carousel img{
+    min-height: 200px;
+    max-height: 250px;
+}
+#carouselExampleIndicators{
+    max-height: 250px;
+}
+#eci{
+    object-position: bottom center;
+}
+/* Carousel */
+
+
+
+/* Event Cards */
+#event-cards{
+    background-color: #fff;
+}
+
+#fh-card{
+    background-image: url(../images/founders_hall_bench.jpeg);
+    background-size: cover;
+    height: 400px;
+    background-position: bottom center;
+    color: #fff;
+}
+
+#ch-card{
+    background-image: url(../images/chestnut_hall_trees.jpeg);
+    background-size: cover;
+    height: 400px;
+    background-position: bottom center;
+    color: #fff;
+}
+
+#w-card{
+    background-image: url(../images/wedding_dance_kiss.jpeg);
+    background-size: cover;
+    height: 400px;
+    background-position: bottom center;
+    color: #fff;
+}
+
+#fm-card{
+    background-image: url(../images/founders_hall.jpeg);
+    background-size: cover;
+    height: 400px;
+    background-position: bottom center;
+    color: #fff;
+}
+/* Event Cards */
+
+
+
+/* Index */
+/* Index */
+/* Index */
+/* Index */
+/* Index */
+
+
+
+/* Founder's Hall */
+/* Founder's Hall */
+/* Founder's Hall */
+/* Founder's Hall */
+/* Founder's Hall */
+
+
+
+/* Founder's Hall Content */
+#fh-content{
+    background-color: #fff;
+}
+/* Founder's Hall Content */
+
+
+
+/* Founder's Hall */
+/* Founder's Hall */
+/* Founder's Hall */
+/* Founder's Hall */
+/* Founder's Hall */
+
+
+
+/* Contact */
+/* Contact */
+/* Contact */
+/* Contact */
+/* Contact */
+
+
+
+/* Contact Form */
+#contact-form{
+    background-color: #fff;
+    max-width: 960px;
+}
+
+.phone-number{
+    font-weight: 600;
+}
+#hk-logo{
+    width: 16px;
+    height: 16px;
+}
+.input-group-append{
+  cursor: pointer;
+}
+/* Contact Form */
+
+
+
+/* Contact */
+/* Contact */
+/* Contact */
+/* Contact */
+/* Contact */
+
+
+
+
+
+
+@media (min-width: 576px){
+    
+}
