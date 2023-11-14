@@ -38,6 +38,14 @@ body{
 
 
 
+/* Masthead */
+/* Masthead */
+/* Masthead */
+/* Masthead */
+/* Masthead */
+
+
+
 /* Index */
 /* Index */
 /* Index */
@@ -95,7 +103,7 @@ body{
 }
 
 #fm-card{
-    background-image: url(../images/founders_hall.jpeg);
+    background-image: url(../images/chestnut_hall_makeup_room.jpeg);
     background-size: cover;
     height: 400px;
     background-position: bottom center;
@@ -123,7 +131,14 @@ body{
 
 /* Founder's Hall Content */
 #fh-content{
-    background-color: #fff;
+    background-color: #e4e2e1;
+    color: #201b12;
+}
+#fh-body{
+    background-color: #868673;
+}
+.text-body-bsg{
+    color: #868673;
 }
 /* Founder's Hall Content */
 
@@ -134,6 +149,37 @@ body{
 /* Founder's Hall */
 /* Founder's Hall */
 /* Founder's Hall */
+
+
+
+/* Chestnut Hall */
+/* Chestnut Hall */
+/* Chestnut Hall */
+/* Chestnut Hall */
+/* Chestnut Hall */
+
+
+
+/* Chestnut Hall Content */
+#ch-content{
+    background-color: #dfe0df;
+    color: #2e2520;
+}
+#ch-body{
+    background-color: #895b33;
+}
+.text-body-bo{
+    color: #474544;
+}
+/* Chestnut Hall Content */
+
+
+
+/* Chestnut Hall */
+/* Chestnut Hall */
+/* Chestnut Hall */
+/* Chestnut Hall */
+/* Chestnut Hall */
 
 
 
@@ -170,12 +216,3 @@ body{
 /* Contact */
 /* Contact */
 /* Contact */
-
-
-
-
-
-
-@media (min-width: 576px){
-    
-}

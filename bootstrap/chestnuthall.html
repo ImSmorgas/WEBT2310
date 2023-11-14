@@ -33,7 +33,7 @@
         <link rel="icon" type="image/x-icon" href="images/favicon.png">
     </head>
 
-    <body>
+    <body id="ch-body">
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
@@ -67,7 +67,6 @@
             </div>
         </nav>
         <!-- Navbar -->
-
         <!-- Masthead -->
         <header>
             <div id="masthead" class="jumbotron object-fit-cover darken-image">
@@ -83,8 +82,12 @@
             </div>
         </header>
         <!-- Masthead -->
-        <div id="fh-content" class="container-xl my-4 p-3 rounded-3">
+        <!-- Content -->
+        <div id="ch-content" class="container-lg p-3 rounded-0">
+            <!-- Heading -->
             <h1 class="text-center">Chestnut Hall</h1>
+            <!-- Heading -->
+            <!-- Card 1 -->
             <div class="mb-3 mx-auto" style="max-width: 992px;">
                 <div class="row g-0">
                     <div class="col-sm-5 mx-auto p-3">
@@ -95,53 +98,77 @@
                     </div>
                     <div class="col-sm-6 mx-auto p-3">
                         <div class="card-body">
-                            <h5 class="card-title text-center">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional
-                                content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title text-center">Plenty of Amenities</h5>
+                            <p class="card-text">Chestnut Hall, with all the bells and whistles, includes a catering
+                                kitchen, bride and groom suites, a community room to
+                                accomodate 90 guests, with heating and air.</p>
+                            <p class="card-text"><small class="text-body-bo">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- Card 1 -->
+            <!-- Card 2 -->
             <div class="mb-3 mx-auto" style="max-width: 992px;">
                 <div class="row g-0">
-                    <div class="col-sm-5 mx-auto p-3 order-2">
+                    <div id="right-img" class="col-sm-5 mx-auto p-3 order-2">
                         <a href="images/chestnut_hall_makeup_room.jpeg" data-lightbox="mygallery"
                             data-title="Caption Here">
                             <img src="images/1x1chesnut_hall_makeup_room.png" class="img-fluid rounded" alt="...">
                         </a>
                     </div>
-                    <div class="col-sm-6 mx-auto p-3 order-1">
+                    <div id="left-text" class="col-sm-6 mx-auto p-3 order-1">
                         <div class="card-body">
-                            <h5 class="card-title text-center">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional
-                                content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title text-center">Bride and Groom Suites</h5>
+                            <p class="card-text">Small dressing room perfect for makeup before a wedding hosted at
+                                Founder's Hall or even preparing a star speaker for a meet and greet!</p>
+                            <p class="card-text"><small class="text-body-bo">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- Card 2 -->
+            <!-- Card 3 -->
             <div class="mb-3 mx-auto" style="max-width: 992px;">
                 <div class="row g-0">
                     <div class="col-sm-5 mx-auto p-3">
-                        <a href="images/wedding_makeup.jpeg" data-lightbox="mygallery" data-title="Caption Here">
-                            <img src="images/1x1wedding_makeup.png" class="img-fluid rounded" alt="...">
+                        <a href="images/chestnut_hall_meeting.jpeg" data-lightbox="mygallery" data-title="Caption Here">
+                            <img src="images/1x1chm.png" class="img-fluid rounded" alt="...">
                         </a>
                     </div>
                     <div class="col-sm-6 mx-auto p-3">
                         <div class="card-body">
-                            <h5 class="card-title text-center">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional
-                                content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title text-center">A Space for Community Events in Collegedale</h5>
+                            <p class="card-text">From baby showers to engagement parties, community gatherings for local
+                                civic groups in Collegedale and everything in
+                                between, Chestnut Hall at The Commons is your perfect event space.</p>
+                            <p class="card-text"><small class="text-body-bo">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- Card 3 -->
         </div>
+        <!-- Content -->
     </body>
+    <!-- Class Removal -->
+    <script>
+        jQuery(document).ready(function ($) {
+            var alterClass = function () {
+                var ww = document.body.clientWidth;
+                if (ww < 575) {
+                    $('#right-img').removeClass('order-2');
+                } else if (ww >= 576) {
+                    $('#right-img').addClass('order-2');
+                };
+            };
+            $(window).resize(function () {
+                alterClass();
+            });
+            //Fire it when the page first loads:
+            alterClass();
+        });
+    </script>
+    <!-- Class Removal -->
 
 </html>
