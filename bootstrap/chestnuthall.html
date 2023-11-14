@@ -31,6 +31,25 @@
             crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <link rel="stylesheet" href="css/styles.css" />
         <link rel="icon" type="image/x-icon" href="images/favicon.png">
+        <!-- Class Removal -->
+        <script>
+            jQuery(document).ready(function ($) {
+                var alterClass = function () {
+                    var ww = document.body.clientWidth;
+                    if (ww < 575) {
+                        $('#right-img').removeClass('order-2');
+                    } else if (ww >= 576) {
+                        $('#right-img').addClass('order-2');
+                    };
+                };
+                $(window).resize(function () {
+                    alterClass();
+                });
+                //Fire it when the page first loads:
+                alterClass();
+            });
+        </script>
+        <!-- Class Removal -->
     </head>
 
     <body id="ch-body">
@@ -54,7 +73,6 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="foundershall.html">Founder's Hall</a>
-                        </li>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="chestnuthall.html">Chestnut Hall</a>
@@ -151,24 +169,5 @@
         </div>
         <!-- Content -->
     </body>
-    <!-- Class Removal -->
-    <script>
-        jQuery(document).ready(function ($) {
-            var alterClass = function () {
-                var ww = document.body.clientWidth;
-                if (ww < 575) {
-                    $('#right-img').removeClass('order-2');
-                } else if (ww >= 576) {
-                    $('#right-img').addClass('order-2');
-                };
-            };
-            $(window).resize(function () {
-                alterClass();
-            });
-            //Fire it when the page first loads:
-            alterClass();
-        });
-    </script>
-    <!-- Class Removal -->
 
 </html>
