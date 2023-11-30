@@ -1,0 +1,265 @@
+/* Background */
+.bg-dark-pink{
+    background-color: #961442;
+}
+/* Menu Buttons */
+.nav-link{
+    color: #fefefe;
+}
+/* Menu Hover */
+.navbar-nav a:hover{
+    color: #EADE8B !important; 
+}
+/* Border removal dropdown menu */
+.no-border-radius .navbar-toggler {
+    border-radius: 0;
+    border: 0;
+}
+/* Navbar Hover */
+.navbar-nav .nav-link {
+    position: relative;
+}
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+/* Navbar Active Effect */
+.navbar-nav .nav-link.active {
+    position: relative;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+.active{
+    color: #EADE8B !important;
+}
+/* Mastheads */
+#masthead {
+    background-image: url(../images/background.png);
+    background-size: cover;
+    background-position: bottom center;
+    color: #fefefe;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/* #masthead-light {
+    background-image: url(../images/chatt-sil-light-300ppi.png);
+    background-size: cover;
+    background-position: bottom center;
+    height: 800px;
+}
+#masthead-dark{
+    background-image: url(../images/chatt-sil-300ppi.png);
+    background-size: cover;
+    background-position: bottom center;
+    height: 800px;
+} */
+
+
+
+
+/* Content Colors */
+.purple-content{
+    background-color: #7D193E;
+    color: #fefefe;
+}
+.orange-content{
+    background-color: #E76C42;
+    color: #fefefe;
+}
+.yellow-content{
+    background-color: #FDF1D2;
+    color: #000;
+}
+.white-content{
+    background-color: #fefefe;
+    color: #000;
+}
+/* Content Colors */
+/* Examples for how to change button colors */
+.btn-warning{
+    background-color: #E0AA0F !important;
+    border-color: #E0AA0F;
+    color: #002B3B;
+}
+.btn-warning:hover{
+    border-color: #E0AA0F  !important;
+    color: #002B3B;
+}
+.btn-primary{
+    background-color: #002B3B !important;
+    border-color: #002B3B;
+}
+.btn-primary:hover{
+    border-color: #002B3B !important;
+    color: #fefefe;
+}
+.btn-danger{
+    background-color: #E71D2A !important;
+    border-color: #E71D2A;
+    color: #002B3B;
+}
+.btn-danger:hover{
+    border-color: #E71D2A !important;
+    color: #002B3B;
+}
+/* Examples for how to change button colors */
+/* Custom styles for carousel controls with rounded drop shadows */
+/* Disney */
+#carouselDisney .carousel-control-prev,
+#carouselDisney .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselDisney .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselDisney .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselDisney .carousel-control-prev-icon,
+#carouselDisney .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Universal */
+#carouselUniversal .carousel-control-prev,
+#carouselUniversal .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselUniversal .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselUniversal .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselUniversal .carousel-control-prev-icon,
+#carouselUniversal .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Osc */
+#carouselOsc .carousel-control-prev,
+#carouselOsc .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselOsc .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselOsc .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselOsc .carousel-control-prev-icon,
+#carouselOsc .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Lep */
+#carouselLep .carousel-control-prev,
+#carouselLep .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselLep .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselLep .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselLep .carousel-control-prev-icon,
+#carouselLep .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Dpcpa */
+#carouselDpcpa .carousel-control-prev,
+#carouselDpcpa .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselDpcpa .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselDpcpa .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselDpcpa .carousel-control-prev-icon,
+#carouselDpcpa .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
+/* Oma */
+#carouselOma .carousel-control-prev,
+#carouselOma .carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 50px;
+    height: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#carouselOma .carousel-control-prev {
+    border-radius: 0 10px 10px 0;
+}
+#carouselOma .carousel-control-next {
+    box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 0 0 10px;
+}
+#carouselOma .carousel-control-prev-icon,
+#carouselOma .carousel-control-next-icon {
+    background-color: transparent;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.75));
+}
