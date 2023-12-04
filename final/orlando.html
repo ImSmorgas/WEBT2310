@@ -718,7 +718,7 @@
                 });
             });
         </script>
-        <!-- Animation -->
+        <!-- Animated Elements -->
         <script>
             document.addEventListener("DOMContentLoaded", function () {
                 const animatedElements = document.querySelectorAll('.animated-element');
@@ -730,13 +730,50 @@
                             observer.unobserve(entry.target);
                         }
                     });
-                }, { threshold: 0.5 }); // Adjust threshold based on when you want the animation to start
+                }, { threshold: 0.15 }); // Adjust threshold based on when you want the animation to start
 
                 animatedElements.forEach(element => {
                     observer.observe(element);
                 });
             });
         </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const animatedElements = document.querySelectorAll('.animated-element-no-move');
+
+                const observer = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('active');
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.15 }); // Adjust threshold based on when you want the animation to start
+
+                animatedElements.forEach(element => {
+                    observer.observe(element);
+                });
+            });
+        </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const animatedElements = document.querySelectorAll('.animated-element-slow');
+
+                const observer = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add('active');
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, { threshold: 0.15 }); // Adjust threshold based on when you want the animation to start
+
+                animatedElements.forEach(element => {
+                    observer.observe(element);
+                });
+            });
+        </script>
+        <!-- Animated Elements -->
     </body>
 
 </html>
