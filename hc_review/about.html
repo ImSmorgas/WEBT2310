@@ -1,31 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML & CSS Review</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <!-- Lightbox JavaScript (Full version) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"
+        integrity="sha512-Ixzuzfxv1EqafeQlTCufWfaC6ful6WFqIz4G+dWvK0beHw0NVJwvCKSgafpy5gwNqKmgUfIBraVwkKI+Cz0SEQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Lightbox CSS (Full version) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.css"
+        integrity="sha512-Woz+DqWYJ51bpVk5Fv0yES/edIMXjj3Ynda+KWTIkGoynAMHrqTcDUQltbipuiaD5ymEo9520lyoVOo9jCQOCA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Lightbox JavaScript Plus jQuery (Full version) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox-plus-jquery.js"
+        integrity="sha512-oaWLach/xXzklmJDBjHkXngTCAkPch9YFqOSphnw590sy86CVEnAbcpw17QjkUGppGmVJojwqHmGO/7Xxx6HCw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <div class="offhomebanner">
-        <div class="offhomenavbar">
-            <a href="home.html"><img src="images/wiredcolorlogo.png" alt="logo" class="logo"></a>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-sm navbar-light no-border-radius bg-glass">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html">
+                <img src="images/wiredcolorlogo.png" alt="Logo" width="100px" height="100px"
+                    class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <div class="page-break">
+    </nav>
+    <div class="header-image">
         <img src="images/about_splitter.jpeg" alt="coffee shop">
-        <h1>About</h1>
+        <h1 class="bad-script-regular">About</h1>
     </div>
+
     <div class="offhomecontent">
-        <h2>Coffee that cares about community</h2>
-        <p>Wired Coffee Bar was founded in 2014 as a way to serve our community through exceptional coffee and a great space for people to come together. We are the premium coffee experience where community happens. <br><br>Enjoy custom drinks made exactly how you want them. Be sure to discuss your preferences with our baristas.<br><br>Get Wired!</p>
+        <h2 class="bad-script-regular">Our Story</h2>
+        <p>Wired Coffee Bar was born out of a passion for crafting the perfect cup and creating a space where
+            connections thrive. Since [founding year], we've proudly served Ooltewah with premium coffee experiences,
+            becoming a cherished hub for locals and visitors alike.</p>
+        <h2 class="bad-script-regular">
+            Craftsmanship Meets Community
+        </h2>
+        <p>At Wired, we believe that great coffee is more than just a beverage; it's an experience that brings
+            people together. Our skilled baristas are dedicated to the art of coffee, ensuring each cup is a masterpiece
+            of flavor, aroma, and quality. From meticulously sourced beans to expertly brewed blends, every detail is a
+            testament to our commitment to excellence.
+        </p>
+        <h2 class="bad-script-regular">
+            Our Commitment
+        </h2>
+        <p>Beyond crafting exceptional coffee, Wired Coffee Bar is committed to being a positive force in the Ooltewah
+            community. We strive to be more than a coffee shop; we aim to be a cornerstone of the neighborhood—a place
+            where friendships are formed, ideas are shared, and memories are made.
+        </p>
+        <h2 class="bad-script-regular">
+            Local Partnerships
+        </h2>
+        <p>We take pride in supporting local producers and businesses. Our commitment to sustainability and community
+            extends to our partnerships with local farmers, ensuring that the ingredients in our offerings are fresh,
+            ethically sourced, and contribute to the local economy.
+        </p>
+        <h2 class="bad-script-regular">
+            Join Us at the Heart of Ooltewah
+        </h2>
+        <p>Whether you're a coffee aficionado, a casual visitor, or a local resident, Wired Coffee Bar welcomes you to
+            experience the warmth of our space, the richness of our coffee, and the vibrancy of the Ooltewah community.
+            <br>
+            <br> Come, get wired with us!
+        </p>
     </div>
-    
+
+
 </body>
+
 </html>
