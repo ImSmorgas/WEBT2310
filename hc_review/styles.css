@@ -124,38 +124,39 @@
 
 /* About */
 /* About */
-.bg-coffee-bag {
-    position: relative;
-    background-image: url(images/bg-coffee-bag-no-cup.png);
-    background-size: cover;
-    background-position: center center;
-    width: 100%;
-    height: 100%;
-}
-
 /* Create an overlay */
-.bg-coffee-bag::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for darkness */
-    z-index: 1;
-}
-
-.bg-coffee-transparent {
-    background: rgba(0, 0, 0, 0); /* Transparent black background */
-}
-
 .container-fluid {
     padding: 0; /* Remove default padding to avoid extra spacing */
 }
-
+.z-index--1 {
+    z-index: -1;
+}
+.z-index-10 {
+    z-index: 10;
+}
 .z-index-100 {
     z-index: 100;
 }
+.bg-glass-wired {
+    background-color: rgba(255, 219, 199, .60);
+    backdrop-filter: saturate(180%) blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.bg-glass-crema {
+    background-color: rgba(245, 180, 101, .60);
+    backdrop-filter: saturate(180%) blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.bg-coffee-float {
+    background-image: url(images/bg-coffee-float.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-position: center center;
+}
+
 
 
 
@@ -178,7 +179,7 @@
     text-align: center;
     text-decoration: none;
     background-color: rgb(245, 180, 101);
-    color: #fff;
+    color: #000;
     border-radius: 5px;
     transition: background-color 0.3s ease;
     max-width: 150px;
